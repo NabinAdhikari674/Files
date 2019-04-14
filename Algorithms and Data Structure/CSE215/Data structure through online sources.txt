@@ -1,0 +1,7 @@
+Online sources:
+
+1. https://sites.google.com/site/webparthajit/downloads/data-structure-and-algorithms-lectures
+
+2. https://visualgo.net/en/
+
+3. https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
