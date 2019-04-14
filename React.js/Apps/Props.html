@@ -1,0 +1,33 @@
+<html>
+<head>
+<script src="https://unpkg.com/react@15/dist/react.min.js"> </script>
+<script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+	class Hello extends React.Component
+{
+  render()
+  {
+    const a="This is a Message Passed Through Props";
+    return( <div>
+                <This msg={a}/>
+            </div>);
+  }
+}
+class This extends React.Component
+{
+  render()
+  {
+    return(<div>
+        <h1>{this.props.msg}</h1>
+        </div>);
+  }
+}
+	ReactDOM.render(<Hello/>,document.getElementById("root"));
+    
+    </script>
+</body>
+</html>
